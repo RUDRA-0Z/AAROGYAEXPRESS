@@ -314,7 +314,7 @@ export default function FeatureCards() {
             Loading your medicines…
           </div>
         ) : medicines.length === 0 ? (
-          <div className="text-center py-8 px-4 text-gray-500 bg-white mx-5 rounded-[24px] shadow-sm border border-gray-100">
+          <div className="text-center py-8 px-4 text-gray-500 bg-white mx-5 rounded-3xl shadow-sm border border-gray-100">
             <span className="text-3xl mb-2 block">💊</span>
             <span className="font-bold text-gray-700 block mb-1">No medicines tracked yet</span>
             <span className="text-xs font-medium">Scan or analyse a document to add medicines!</span>
